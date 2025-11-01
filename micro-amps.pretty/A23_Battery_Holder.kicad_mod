@@ -1,0 +1,127 @@
+(footprint "A23_Battery_Holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Axial series, Axial, Horizontal, pin pitch=30.48mm, length*diameter=26*11mm^2, Fastron, 77A, http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf")
+	(tags "Inductor Axial series Axial Horizontal pin pitch 30.48mm  length 26mm diameter 11mm Fastron 77A")
+	(property "Reference" "REF**"
+		(at 15.24 -6.62 0)
+		(layer "F.SilkS")
+		(uuid "86e1abf2-aa6e-49b0-8a79-a118813c6af6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "A23_Battery_Holder"
+		(at 15.24 6.62 0)
+		(layer "F.Fab")
+		(uuid "120af7c2-6e35-413c-a48d-2b2a4edb41aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "573c7c6c-1906-45eb-a9a9-0e3c12efd9d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a1eed94-54c1-4357-8f5d-874660114e28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.504921 -6.62)
+		(end 36 6.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "07dbb63e-63bd-4c22-bee8-39ce1442554c")
+	)
+	(fp_rect
+		(start -1.95 -6.75)
+		(end 36.44 6.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c4e6e921-e3cd-43a4-a493-022a27eb91d2")
+	)
+	(fp_rect
+		(start -1.76 -6.5)
+		(end 36.24 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aad11d29-69c3-4b5e-b70e-5a38f8a6f12c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 15.24 0 0)
+		(layer "F.Fab")
+		(uuid "a41b0b38-b9e4-468e-a53d-d7488dc50650")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53ce90ef-f202-4ff4-891b-8889dc18f310")
+	)
+	(pad "2" thru_hole circle
+		(at 34.5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bca27806-25cd-4ff4-8d39-8fd1e02f3bbc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L26.0mm_D11.0mm_P30.48mm_Horizontal_Fastron_77A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

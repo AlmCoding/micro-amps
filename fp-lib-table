@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "micro-amps")(type "KiCad")(uri "${KIPRJMOD}/micro-amps.pretty")(options "")(descr ""))
+)
