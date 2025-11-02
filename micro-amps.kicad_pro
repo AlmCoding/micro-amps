@@ -188,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
         0.4,
         0.6,
         0.8,
@@ -471,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "current_converter.kicad_pro",
+    "filename": "micro-amps.kicad_pro",
     "version": 3
   },
   "net_settings": {
